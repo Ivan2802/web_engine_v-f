@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/icons/mini_logo.png">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Your easy site</title>
+</head>
+<body>
+
+    <section class="header">
+        <div class="wrapper">
+            <div class="header_logo">
+                <a href="./index.html" class="header_logo_text">Your easy site</a>
+            </div>
+            <ul class="header_nav">
+                <li class="header_nav_item"><a href="#main" class="header_nav_item_link">Главная</a></li>
+                <li class="header_nav_item"><a href="#features" class="header_nav_item_link">Особенности</a></li>
+                <li class="header_nav_item"><a href="#learning" class="header_nav_item_link">Обучение</a></li>
+                <li class="header_nav_item"><a href="#contacts" class="header_nav_item_link">Контакты</a></li>
+            </ul>
+            <div class="header_buttons">
+                <input type="button" class="header_buttons__button_enter button_blue" value="Войти">
+                <input type="button" class="header_buttons__button_register button_blue" value="Регистрация">
+            </div>
+        </div>
+    </section>
+
+    <section class="main" id="main">
+        <div class="wrapper">
+            <div class="main_text_block">
+                <div class="main_title">Your easy site - создай свой сайт быстро и просто</div>
+                <div class="main_subtitle">Уникальный шанс создать свой сайт без навыка программирования</div>
+                <input class="main_button button_green" type="button" value="Создать сайт">
+            </div>
+            <div class="main_logo"><img src="images/logo.png" alt="logo" class="main_logo_image"></div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="wrapper">
+            <div class="features_title">Особенности</div>
+            <div class="features_content">
+                <div class="features_content_block">
+                    <div class="features_content_block_title">Просто</div>
+                    <div class="features_content_block_text">Создавать сайты проще чем кажется, особенно с нами</div>
+                </div>
+                <div class="features_content_block">
+                    <div class="features_content_block_title">Быстро</div>
+                    <div class="features_content_block_text">Всего пару кликов и сайт уже готов</div>
+                </div>
+                <div class="features_content_block">
+                    <div class="features_content_block_title">Понятно</div>
+                    <div class="features_content_block_text">Самый удобный и интуитивно понятный интерфейс</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="height: 500px; margin-top: 50px;" class="learning" id="learning">
+        <div class="wrapper">
+            <div class="contacts_title">Быстрое обучение</div>
+            <div style="margin-top: 10px;" class="contacts_subtitle">Следуй инструкции и всё получиться!</div>
+            <ol style="margin-top: 50px; align-items: center; font-size: 22px;">
+                <li style="padding-bottom: 20px;">Зарегистрируйтесь в системе.</li>
+                <li style="padding-bottom: 20px;">Войдите в ваш аккаунт.</li>
+                <li style="padding-bottom: 20px;">Нажмите на кнопку создать. У вас будет доступно 10 сайтов для создания.</li>
+                <li style="padding-bottom: 20px;">Придумайте название вашему сайту.</li>
+                <li style="padding-bottom: 20px;">Чтобы начать его создавать - нажмите на кнопку редактировать.</li>
+                <li style="padding-bottom: 20px;">Когда вы создали сайт, нажмите на кнопку сохранить.</li>
+                <li style="padding-bottom: 20px;">Теперь ваш сайт доступен по уникальной ссылке.</li>
+            </ol>
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="wrapper">
+            <div class="contacts_title">Контакты</div>
+            <div class="contacts_subtitle">Если у вас есть вопросы, пожалуйста, пишите</div>
+            <div class="contacts_content">
+                <div class="contacts_content_socials">
+                    <div class="contacts_content_socials_logo"><img src="images/logo_blue.png" alt="logo_blue" class="contacts_content_socials_logo_image"></div>
+                    <div class="contacts_content_socials_icons">
+                        <a target="_blank" href="https://t.me/Ivanfunny" class="contacts_content_socials_icons_link"><img src="images/icons/telegramm.png" alt="telegramm"></a>
+                        <a target="_blank" href="https://wa.me/89117624275 " class="contacts_content_socials_icons_link"><img src="images/icons/whatsup.png" alt="whatsup"></a>
+                        <a target="_blank" href="https://vk.com/id683720082" class="contacts_content_socials_icons_link"><img src="images/icons/vk.png" alt="vk"></a>
+                    </div>
+                </div>
+                <form action="#" class="contacts_content_form">
+                    <div class="contacts_content_form_top_block">
+                        <input required type="text" class="contacts_content_form_input input" placeholder="Введите имя">
+                        <input required type="email" class="contacts_content_form_input input" placeholder="Введите email">
+                    </div>
+                    <textarea required class="contacts_content_form_textarea input" placeholder="Введите текст"></textarea>
+                    <input type="button" class="contacts_content_form_button button_green" value="Отправить">
+                </form>
+            </div>
+            <div class="contacts_auth">© 2025 - Лакотко Иван</div>
+        </div>
+    </section>
+
+    <div class="pop_up_register disactive">
+        <div class="register_window">
+            <div class="register_window_title">Регистрация</div>
+            <div class="register_window_cross"><img src="images/icons/cross.png" alt="cross"></div>
+            <div class="register_window_inputs">
+                <input type="text" required class="register_window_inputs_name input" placeholder="Введите имя">
+                <input type="email" required class="register_window_inputs_email input" placeholder="Введите email">
+                <input type="password" required class="register_window_inputs_password input" placeholder="Введите пароль">
+                <input type="button" class="register_window_inputs_button button_green" value="Зарегистрироваться">
+                <p class="pop_up_error_r" style="font-size: 20px; color: red; font-weight: bold;"></p>
+            </div>
+        </div> 
+    </div>
+
+    <div class="pop_up_signin disactive">
+        <div class="sigin_window">
+            <div class="sigin_window_title">Вход</div>
+            <div class="sigin_window_cross"><img src="images/icons/cross.png" alt="cross"></div>
+            <div class="sigin_window_inputs">
+                <input type="text" required class="sigin_window_inputs_name input" placeholder="Введите имя">
+                <input type="password" required class="sigin_window_inputs_password input" placeholder="Введите пароль">
+                <input type="button" class="sigin_window_inputs_button button_green" value="Войти">
+                <p class="pop_up_error_s" style="font-size: 20px; color: red; font-weight: bold;"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="pop_up_successfull disactive">
+        <div class="successfull_window">
+            <div class="successfull_window_title">Успешно!</div>
+            <div class="successfull_window_cross"><img src="images/icons/cross.png" alt="cross"></div>
+            <div class="successfull_window_inputs">
+                <input type="button" class="successfull_window_inputs_button button_green" value="Успешно">
+            </div>
+        </div>
+    </div>
+
+    <div class="pop_up_err disactive">
+        <div class="err_window">
+            <div class="err_window_title">Ошибка!</div>
+            <div class="err_window_cross"><img src="images/icons/cross.png" alt="cross"></div>
+            <div class="err_window_inputs">
+                <input type="button" class="err_window_inputs_button button_green" value="Ошибка!">
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/variables.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/icons/mini_logo.png">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Your easy site</title>
+</head>
+<body>
+
+    <section class="header">
+        <div class="wrapper">
+            <div class="header_logo">
+                <a href="./index.html" class="header_logo_text">Your easy site</a>
+            </div>
+            <div class="header_title">Создать сайт</div>
+            <div class="header_buttons">
+                <div class="header_profile_name"></div>
+                <input type="button" class="header_buttons__button_out button_blue" value="Выйти">
+            </div>
+        </div>
+    </section>
+
+    <section class="init">
+        <div class="wrapper">
+            <div class="init_button_back">
+                <input type="button" value="Назад" class="init_button_back_input button_blue">
+            </div>
+            <div class="init_content">
+                <div class="init_content_title">Новый сайт</div>
+                <div class="init_content_input_name">
+                    <div class="init_content_input_name_text">Название проекта (уникальное)</div>
+                    <input class="init_content_input_name_input input" type="text" placeholder="Название">
+                </div>
+                <div class="init_content_subtitle">Выберите подходящий шаблон <br> <span style="font-size: 16px; "> Адаптируйте его под себя</span></div>
+                <div class="init_content_templates">
+                    <input type="button" class="init_content_templates_template init_blog selected_grey" value="Блог">
+                    <input type="button" class="init_content_templates_template init_anketa" value="Анкета">
+                    <input type="button" class="init_content_templates_template blog_portfolio" value="Портфолио">
+                    <input type="button" class="init_content_templates_template blog_multilink" value="Мультиссылка">
+                </div>
+                <div class="init_content_view_blog active">blog
+                    <!-- <img src="images/blog_template.png" alt="blog"> -->
+                </div>
+                <div class="init_content_view_anketa disactive">anketa</div>
+                <div class="init_content_view_portfolio disactive">portfolio</div>
+                <div class="init_content_view_multilink disactive">multilink</div>
+                <input type="button" value="Создать" class="init_content_button_init button_green"></input>
+            </div>
+        </div>
+    </section>
+    
+    <script src="scripts/site_init.js"></script>
+</body>
+</html>

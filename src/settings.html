@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/icons/mini_logo.png">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Your easy site</title>
+</head>
+<body>
+
+    <section class="header">
+        <div class="wrapper">
+            <div class="header_logo">
+                <a href="./index.html" class="header_logo_text">Your easy site</a>
+            </div>
+            <div class="header_title">Настройка проекта</div>
+            <div class="header_buttons">
+                <div class="header_profile_name"></div>
+                <input type="button" class="header_buttons__button_out button_blue" value="Выйти">
+            </div>
+        </div>
+    </section>
+
+    <section class="settings">
+        <div class="wrapper">
+            <input type="button" class="settings_button_back button_blue" value="Назад">
+            <div class="settings_main">
+                <div class="settings_main_title">Проект: <span class="settings_main_title_name">название</span></div>
+                <div class="settings_main_input_name">
+                    <div class="settings_main_input_name_without_button">
+                        <div class="settings_main_input_name_text">Название проекта</div>
+                        <input class="settings_main_input_name_input input" type="text" placeholder="Название">
+                    </div>
+                    <input class="settings_main_input_name_save button_green" type="button" value="Сохранить">
+                </div>
+                <div class="settings_main_input_status">
+                    <div class="settings_main_input_status_text">Статус</div>
+                    <div class="settings_main_input_status_stat">Сайт не опубликован</div>
+                </div>
+                <div class="settings_main_input_buttons">
+                    <input type="button" class="button_green settings_main_input_buttons_host" value="Скачать сайт"> 
+                    <input type="button" class="button_red settings_main_input_buttons_del" value="Удалить">
+                </div>
+        </div>
+    </section>
+    
+    <script src="scripts/settings.js"></script>
+</body>
+</html>

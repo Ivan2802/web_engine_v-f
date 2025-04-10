@@ -1,0 +1,49 @@
+.pop_up_signin{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(65, 64, 64, 0.658);
+}
+.sigin_window{
+    position: fixed;
+    left: 38%;
+    top: 20%;
+    width: 500px;
+    height: 510px;
+    background-color: var(--blue-background);
+    padding: 40px 0 40px 0;
+    border: 2px solid var(--green-color-border);
+    border-radius: 20px;
+    z-index: 10;
+}
+.sigin_window_cross{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.sigin_window_cross:hover{
+    cursor: pointer;
+}
+.sigin_window_title{
+    font-size: 46px;
+    text-align: center;
+}
+.sigin_window_inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 40px;
+}
+.sigin_window_inputs_name, .sigin_window_inputs_password{
+    width: 300px;
+    height: 80px;
+}
+.sigin_window_inputs_button{
+    margin-top: 40px;
+    width: 300px;
+    height: 80px;
+}

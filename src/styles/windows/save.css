@@ -1,0 +1,52 @@
+.pop_up_save{
+    position: absolute;
+    z-index: 10000;
+}
+.save_back_cover{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(65, 64, 64, 0.658);
+}
+.save_window{
+    position: fixed;
+    /* position: absolute;
+    z-index: 10000; */
+    left: 41%;
+    top: 41%;
+    width: 500px;
+    background-color: var(--blue-background);
+    padding: 40px 0 40px 0;
+    border: 2px solid var(--green-color-border);
+    border-radius: 20px;
+}
+.save_window_cross{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.save_window_cross:hover{
+    cursor: pointer;
+}
+.save_window_title{
+    font-size: 46px;
+    text-align: center;
+}
+.save_window_inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 40px;
+}
+.save_window_inputs_button{
+    margin-top: 40px;
+    width: 300px;
+    height: 80px;
+}
+.save_window_inputs_button_y, .save_window_inputs_button_n{
+    width: 100px;
+    height: 50px;
+}

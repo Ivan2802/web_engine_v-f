@@ -1,0 +1,26 @@
+.active{
+    display: block;
+}
+.disactive{
+    display: none;
+}
+
+.selected_grey{
+    background-color: rgb(128, 128, 128);
+}
+
+.visible{
+    visibility: visible;
+}
+.not_visible{
+    visibility: hidden;
+}
+
+.left{
+    left: -100%;
+    transition: all linear .5s;
+}
+.right{
+    left: 0;
+    transition: all linear .5s;
+}

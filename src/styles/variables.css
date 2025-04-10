@@ -1,0 +1,17 @@
+:root {
+    --blue-background: #EBFFFF;
+    --blue-color: #9EDAFF;
+    --green-color: #58FF85;
+    --green-hover-color: #0deb48;
+    --blue-hover-color: #3cb2fc;
+    --green-color-border: #009520;
+    --grey-color-proj-cards: #EEEEEE;
+    --red-color-button: rgb(245, 108, 111, 0.5);
+    --red-hover-color-button: rgba(180, 22, 25, 0.712);
+    --green-sets-block-color: #8BEF92;
+
+    --bold-font: 'Kodchasan_Bold';
+    --medium-font: 'Kodchasan_Medium';
+
+    --wrapper-width: 1170px;
+}

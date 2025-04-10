@@ -1,0 +1,46 @@
+.button_blue {
+    background: var(--blue-color);
+    border-radius: 10px;
+    font-size: 23px;
+    transition: background-color .2s ease-in-out;
+}
+.button_blue:hover{
+    cursor: pointer;
+    background-color: var(--blue-hover-color);
+}
+.button_green {
+    background: var(--green-color);
+    border-radius: 10px;
+    font-size: 23px;
+    transition: background-color .2s ease-in-out;
+}
+.button_green:hover{
+    cursor: pointer;
+    background-color: var(--green-hover-color);
+}
+.button_red {
+    background: var(--red-color-button);
+    border-radius: 10px;
+    font-size: 23px;
+    transition: background-color .2s ease-in-out;
+}
+.button_red:hover{
+    cursor: pointer;
+    background-color: var(--red-hover-color-button);
+}
+.input{
+    border-radius: 10px;
+    border: 2px solid var(--green-color-border);
+    font-size: 20px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+.set_inp{
+    width: 300px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: var(--grey-color-proj-cards);
+    padding: 10px;
+    font-size: 14px;
+}
