@@ -281,7 +281,7 @@ async def download_site(data = Body(), db: Session = Depends(get_db)):
     )
     
 
-@app.post("/api/upload-image")  # Обратите внимание на путь!
+@app.post("/api/upload-image") 
 async def upload_image(file: UploadFile = File(...)):
     try:
         contents = await file.read()
